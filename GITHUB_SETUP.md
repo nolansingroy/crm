@@ -49,20 +49,26 @@ git push -u origin main
 
 #### Optional Secrets:
 - `SLACK_WEBHOOK_URL` - Slack webhook for notifications
-- `NEXT_PUBLIC_APP_URL` - Your app URL (e.g., https://your-app.vercel.app)
+- `NEXT_PUBLIC_APP_URL` - Your app URL (e.g., https://your-app.netlify.app)
 
 ### 4. Set Up Deployment (Optional)
-
-#### Vercel Deployment:
-1. Go to [Vercel](https://vercel.com)
-2. Import your GitHub repository
-3. Configure environment variables in Vercel dashboard
-4. Deploy
 
 #### Netlify Deployment:
 1. Go to [Netlify](https://netlify.com)
 2. Import your GitHub repository
 3. Configure environment variables in Netlify dashboard
+4. Deploy
+
+#### Railway Deployment:
+1. Go to [Railway](https://railway.app)
+2. Import your GitHub repository
+3. Configure environment variables in Railway dashboard
+4. Deploy
+
+#### DigitalOcean App Platform:
+1. Go to [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform)
+2. Connect your GitHub repository
+3. Configure environment variables
 4. Deploy
 
 ## 🔒 Security Considerations

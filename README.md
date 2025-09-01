@@ -179,7 +179,7 @@ npm run dev
 
 ### Production Deployment
 ```bash
-# Deploy to Vercel, Netlify, or similar platform
+# Deploy to your preferred hosting platform
 npm run build
 npm start
 ```
